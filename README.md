@@ -1,10 +1,10 @@
-# ionic-image-loader for ionic v5
+# ionic-image-loader for ionic v6
 
 ## Installation
 
 #### 1. Install the NPM Package
 ```
-npm i --save ionic-image-loader-v5
+npm i --save ionic-image-loader-v6
 ```
 
 #### 2. Install Required Plugins
@@ -18,7 +18,7 @@ ionic cordova plugin add cordova-plugin-file
 
 **Add `IonicImageLoaderModule` and `WebView` in your app's root module**
 ```typescript
-import { IonicImageLoaderModule } from 'ionic-image-loader-v5';
+import { IonicImageLoaderModule } from 'ionic-image-loader-v6';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
 
 // import the module
@@ -36,7 +36,7 @@ export class AppModule {}
 
 **Then add `IonicImageLoader` in your child/shared module(s)**
 ```typescript
-import { IonicImageLoaderModule } from 'ionic-image-loader-v5';
+import { IonicImageLoaderModule } from 'ionic-image-loader-v6';
 
 @NgModule({
   ...
@@ -65,7 +65,7 @@ You can also listen to the load event to be notified when the image has been loa
 <img-loader src="path/to/image" (load)="onImageLoad($event)></img-loader>
 ```
 ```typescript
-import { IonicImageLoaderComponent } from 'ionic-image-loader-v5';
+import { IonicImageLoaderComponent } from 'ionic-image-loader-v6';
 
 ...
 
@@ -111,7 +111,7 @@ In **./src/index.html** move your `polyfill.js`include above `cordova.js`
 # Global Configuration
 This is optional but it is helpful if you wish to set the global configuration for all of your `<img-loader>` instances. To configure the module, inject the `ImageLoaderConfigService` provider in your app's main component.
 ```typescript
-import { ImageLoaderConfigService } from 'ionic-image-loader-v5';
+import { ImageLoaderConfigService } from 'ionic-image-loader-v6';
 @Component({
 ...
 })
@@ -287,7 +287,7 @@ this.imageLoaderConfig.setFallbackFileNameCachedExtension('.png');
 
 # Preloading images
 ```typescript
-import { ImageLoaderService } from 'ionic-image-loader-v5';
+import { ImageLoaderService } from 'ionic-image-loader-v6';
 
 class MyComponent {
   
@@ -302,7 +302,7 @@ class MyComponent {
 # Clearing the cache
 ```typescript
 
-import { ImageLoaderService } from 'ionic-image-loader-v5';
+import { ImageLoaderService } from 'ionic-image-loader-v6';
 
 @Component(...)
 class MyComponent {
@@ -318,7 +318,7 @@ class MyComponent {
 # Clearing single image cache
 ```typescript
 
-import { ImageLoaderService } from 'ionic-image-loader-v5';
+import { ImageLoaderService } from 'ionic-image-loader-v6';
 
 @Component(...)
 class MyComponent {
@@ -339,7 +339,7 @@ Usage:
 
 1. Include the ImageAttribute model in your .ts
 ```typescript
-import { ImageAttribute } from 'ionic-image-loader-v5'
+import { ImageAttribute } from 'ionic-image-loader-v6'
 ```
 
 2. Generate an array of ImageAttribute objects
@@ -363,7 +363,7 @@ imageAttributes.push({
 
 <br><br>
 ## Contribution
-- **Having an issue**? or looking for support? [Open an issue](https://github.com/alexowson/ionic-image-loader-v5/issues/new) and we will get you the help you need.
+- **Having an issue**? or looking for support? [Open an issue](https://github.com/alexowson/ionic-image-loader-v6/issues/new) and we will get you the help you need.
 - Got a **new feature or a bug fix**? Fork the repo, make your changes, and submit a pull request.
 
 ## Support this project

@@ -1,34 +1,36 @@
 {
-  "name": "ionic-image-loader-v5",
-  "version": "1.0.2",
-  "description": "ionic-image-loader to Ionic 5",
+  "name": "ionic-image-loader-v6",
+  "version": "1.0.0",
+  "description": "ionic-image-loader to Ionic 6",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexowson/ionic-image-loader-v5.git"
+    "url": "git+https://github.com/kotrakrishna/ionic-image-loader-v6.git"
   },
   "keywords": [
-    "ionic5",
+    "ionic6",
     "image",
     "loading",
     "ionic",
-    "angular8"
+    "angular13"
   ],
   "devDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "~8.2.14",
-    "@angular/compiler-cli": "~8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/forms": "~8.2.14",
-    "@angular/platform-browser": "~8.2.14",
-    "@angular/platform-browser-dynamic": "~8.2.14",
-    "@ionic-native/core": "^5.0.7",
-    "@ionic-native/file": "^5.23.0",
-    "codelyzer": "^5.0.0",
-    "rxjs": "~6.5.1",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "@angular/common": "~13.2.2",
+    "@angular/compiler": "~13.2.2",
+    "@angular/compiler-cli": "~13.2.2",
+    "@angular/core": "~13.2.2",
+    "@angular/forms": "~13.2.2",
+    "@angular/platform-browser": "~13.2.2",
+    "@angular/platform-browser-dynamic": "~13.2.2",
+    "@angular/router": "~13.2.2",
+    "@awesome-cordova-plugins/core": "^5.41.0",
+    "@awesome-cordova-plugins/file": "^5.41.0",
+    "@awesome-cordova-plugins/ionic-webview": "^5.41.0",
+    "codelyzer": "^6.0.2",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.2.0",
+    "zone.js": "~0.11.4"
   },
   "peerDependencies": {
-    "@ionic-native/file": "^5.0.0"
+    "@awesome-cordova-plugins/file": "^5.0.0"
   }
 }

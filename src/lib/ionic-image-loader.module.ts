@@ -1,12 +1,11 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {HttpClientModule} from '@angular/common/http';
-import {IonicModule} from '@ionic/angular';
-import {File} from '@ionic-native/file/ngx';
-
+import { IonicModule } from '@ionic/angular';
 import {IonicImageLoaderComponent} from './ionic-image-loader.component';
 import {ImageLoaderConfigService} from './services/image-loader-config.service';
-import {ImageLoaderService} from './services/image-loader.service';
+import {ImageLoaderService} from './services/image-loader.service'
+import { File } from '@awesome-cordova-plugins/file/ngx';
 
 
 @NgModule({
