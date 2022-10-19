@@ -4,7 +4,7 @@
 
 #### 1. Install the NPM Package
 ```
-npm i --save ionic-image-loader-v6
+npm i --save maatien/ionic-image-loader-v6
 ```
 
 #### 2. Install Required Plugins
